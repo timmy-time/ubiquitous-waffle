@@ -11,6 +11,7 @@ This Turborepo includes the following packages/apps:
 - `docs`: a [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/) for Dashboard * Bot Documenation
 - `web`: another [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/) for the Landing Page + Dashboard itself.
 - `ui`: a React component library with [Tailwind CSS](https://tailwindcss.com/) & [daisyui](https://daisyui.com/) shared by both `web` and `docs` applications
+- `bot`: a Discord.JS bot that will communicate with `web`, for updating settings, creating commands, etc.
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
